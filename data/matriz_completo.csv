@@ -1,0 +1,100 @@
+Fortigate Model;ASIC version;CPU model;Number of CPUs/threads for Intel CPUs;Memory (RAM) size (MB);Compact Flash size (MB);Hard disk size (MB);Firewall Throughput (1518/512/64 byte UDP);IPsec VPN Throughput (512 byte);IPS Throughput (Enterprise Mix);NGFW Throughput (Enterprise Mix);Threat Protection Throughput (Ent. Mix);Firewall Latency;Concurrent Sessions;New Sessions/Sec;Firewall Policies;Max G/W to G/W IPSEC Tunnels;Max Client to G/W IPSEC Tunnels;SSL VPN Throughput;"Concurrent SSL VPN Users (Recommended Maximum; Tunnel Mode)";"SSL Inspection Throughput (IPS; avg. HTTPS)";Application Control Throughput (HTTP 64K);Max FortiAPs (Total / Tunnel);Max FortiSwitches;Max FortiTokens;Virtual Domains (Default/Max);Interfaces;Local Storage;Power Supplies;Form Factor;Variants
+FortiGate-30D;CP0;FortiSOC2;1;932;3879;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiWifi-30E;;ARMv7;2;1006;128;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-30G;SOC4;ARMv8 1200 MHz;4;1918;9982 (MLC);9944;4/4/3.9 Gbps;3.5 Gbps;800 Mbps;570 Mbps;500 Mbps;2.87 μs;"600;000";"30;000";"2;000";200;250;—;—;400 Mbps;830 Mbps;16/8;8;500;—;4x GE RJ45;30 GB (31G);Single AC PS;Desktop;WiFi
+FortiWiFi-40C;CP0;FortiSOC;1;436;3838;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-40F;SOC4;ARMv8;4;1820;3662 (EMMC);;5/5/5 Gbps;4.4 Gbps;1 Gbps;800 Mbps;600 Mbps;2.97 μs;"700;000";"35;000";"2;000";200;250;—;—;310 Mbps;990 Mbps;16/8;8;500;10/10;5x GE RJ45;—;Single AC PS;Desktop;"WiFi; 3G4G"
+FortiWiFi-50E;;ARMv7;2;2021;128;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiWiFi-50G-SFP;SOC5;ARMv8;4;1927;9982 (MLC);;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGateRugged-50G-5G;SOC5;ARMv8;4;1934;3742 (MLC);;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-60D;CP0;FortiSOC2;1;1839;3879;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiWiFi-60E;SOC3;ARMv7;4;1863;3662 (EMMC);;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-60E;SOC3;ARMv7;4;1866;3662 (EMMC);;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-61E;SOC3;ARMv7;4;1866;3662 (EMMC);122104;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-60F;SOC4;ARMv8;8;1919;3662 (EMMC);;10/10/6 Gbps;6.5 Gbps;1.4 Gbps;1 Gbps;700 Mbps;3.3 μs;"700;000";"35;000";"2;000";200;500;—;—;630 Mbps;1.8 Gbps;64/32;24;500;10/10;10x GE RJ45;128 GB (61F);Single AC PS;Desktop;"WiFi; Storage"
+FortiGate-61F;SOC4;ARMv8;8;1919;3662 (EMMC);122104;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-70D;CP0;SOC2;1;1838;1907;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-70F;SOC4;ARMv8;8;3717;3742 (EMMC);;10/10/6 Gbps;6.1 Gbps;1.4 Gbps;1 Gbps;800 Mbps;2.54 μs;1.5 Million;"35;000";"5;000";200;500;405 Mbps;200;700 Mbps;1.8 Gbps;64/32;24;500;10/10;10x GE RJ45;128 GB (71F);Single AC PS;Desktop;—
+FortiGate-71F;SOC4;ARMv8;8;3717;3742 (EMMC);122104;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-70G;SOC5;ARMv8;4;3707;9982 (MLC);;10/10/10 Gbps;7.1 Gbps;2.5 Gbps;1.5 Gbps;1.3 Gbps;2.46 μs;1.4 Million;"100;000";"5;000";200;500;—;—;1.4 Gbps;3.6 Gbps;96/48;24;500;10/10;10x GE RJ45;64 GB (71G);Single AC PS;Desktop;"WiFi; POE"
+FortiGate-71G;SOC5;ARMv8;4;3707;9982 (MLC);61057;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-80C;CP6;Celeron (Covington);1;499;493;;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-80D;;Intel® Atom™ CPU N2600 @ 1.60GHz;4;1985;980;15272;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-80E;SOC3;ARMv7;4;1866;3662 (EMMC);;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-81E;SOC3;ARMv7;4;1866;3662 (EMMC);122104;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-80F;SOC4;ARMv8;8;3718;3662 (EMMC);;10/10/7 Gbps;6.5 Gbps;1.4 Gbps;1 Gbps;900 Mbps;3.23 μs;1.5 Million;"45;000";"5;000";200;"2;500";950 Mbps;200;715 Mbps;1.8 Gbps;96/48;24;500;10/10;"8x GE RJ45; 2x Shared Port Pairs";128 GB (81F);"Single AC PS; dual inputs";Desktop;"WiFi; 3G4G; DSL; Bypass; Storage"
+Fortigate-81F;SOC4;ARMv8;8;3718;3662 (EMMC);122104;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-90D;CP0;SOC2;1;1838;1907;30533;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-90G;SOC5;ARMv8;8;7547;9982;;28/28/27.9 Gbps;25 Gbps;4.5 Gbps;2.5 Gbps;2.2 Gbps;3.23 μs;3 Million;"124;000";"5;000";200;"2;500";1.4 Gbps;200;2.6 Gbps;6.7 Gbps;128/64;24;500;10/10;"8x GE RJ45; 2x 10GE Shared Port Pairs";120 GB (91G);"Single AC PS; dual inputs";Desktop;—
+FortiGate-91E;;Intel® Atom™ CPU C2338 @ 1.74GHz;2;2010;7758;122104;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-91G;SOC5;ARMv8;8;7547;9982;114473;;;;;;;;;;;;;;;;;;;;;;;;
+FortiWiFi-92D;;Intel® Atom™ CPU D525 @ 1.80GHz;4;1971;15331;15272;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-100D;CP8;Intel® Atom™ CPU D525 @ 1.80GHz;4;3955;15331;30533;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-100E;SOC3;ARMv7;4;3040;3662 (EMMC);;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-101E;SOC3;ARMv7;4;3040;3662 (EMMC);457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-100F;SOC4;ARMv8;8;3616;3663 (EMMC);;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-100F 2nd revision (2022);SOC4;ARMv8;8;7588;3742 (MLC);;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-101F;SOC4;ARMv8;8;3616;3662 (EMMC);457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-101F 2nd revision (2022);SOC4;ARMv8;8;7587;3662 (MLC);457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-120G;SOC5;ARMv8;8;7486;9982 (MLC);;39/39/28 Gbps;35 Gbps;5.3 Gbps;3.1 Gbps;2.8 Gbps;3.17 μs;3 Million;"140;000";"10;000";"2;000";"16;000";1.5 Gbps;500;3 Gbps;6.7 Gbps;128/64;48;"5;000";10/10;"4x 10 GE SFP+; 18x GE RJ45; 8x GE SFP";480 GB (121G);Dual AC PS;1 RU;—
+FortiGate-121G;"SOC5; NP7LITE";ARMv8;8;7486;9982 (MLC);457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-140D;CP8;Intel® Atom™ CPU D525 @ 1.80GHz;4;3955;1917;30533;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-200D;CP8;Intel® Celeron® CPU G540 @ 2.50GHz;2;3947;15331;61057;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-200E;CP9;Intel® Celeron® CPU G1820 @ 2.70GHz;2;3962;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-201E;CP9;Intel® Celeron® CPU G1820 @ 2.70GHz;2;3962;15331;457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-200F;CP9;Intel® Xeon® CPU D-1627 @ 2.90GHz;8;7979;28738;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-200G;CP10;Intel® Xeon® D-1726 CPU @ 2.90GHz;12;22671;61296;;39/39/26.5 Gbps;36 Gbps;9 Gbps;7 Gbps;6 Gbps;4.36 μs;11 Million;"400;000";"10;000";"2;000";"16;000";3 Gbps;500;7 Gbps;27.8 Gbps;256/128;64;"5;000";10/25;"8x 10 GE SFP+; 8x 5GE RJ45; 10x GE RJ45; 4x GE SFP";480 GB (201G);Dual AC PS;1 RU;—
+FortiGate-201G;CP10;Intel® Xeon® D-1726 CPU @ 2.90GHz;12;22671;61296;457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-240D;CP8;Intel® Celeron® CPU G540 @ 2.50GHz;2;3947;15331;61057;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-300D;CP8;Intel Core i3-3220 (Ivy Bridge) @ 3.3Ghz;4;7996;15331;114473;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-300E;CP9;Intel® Core™ i5-6500 CPU @ 3.20GHz;4;7980;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-301E;CP9;Intel® Core™ i5-6500 CPU @ 3.20GHz;4;7980;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-400D;CP8;Intel® Core™ i3-3220 @ 3.30GHz;unknown;7996;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-400E;CP9;Intel® Core™ i5-8500 @ 3.00GHz;unknown;7996;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-401E;CP9;Intel® Core™ i5-8500 @ 3.00GHz;unknown;7996;15331;457862;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-400F;CP9;Intel® Xeon® E-2336 CPU @ 2.90GHz;12;16010;28738;;79.5/78.5/70 Gbps;55 Gbps;12 Gbps;10 Gbps;9 Gbps;4.19 μs / 2.5 μs;7.8 Million;"500;000";"10;000";"2;000";"50;000";3.6 Gbps;"5;000";8 Gbps;28 Gbps;512/256;96;"5;000";10/25;"8x 10GE SFP+; 8x GE SFP; 18x GE RJ45";960 GB (401F);Dual AC PS;1 RU;DC
+Fortigate-401F;CP9;Intel® Xeon® E-2336 CPU @ 2.90GHz;12;16010;28738;457862;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-500D;CP8;Intel® Xeon® E3-1225 V2 @ 3.20GHz;4;7996;15331;114473;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-500E;CP9;Intel® Core™ i7-6700 CPU @ 3.40GHz;8;16048;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-501E;CP9;Intel® Core™ i7-6700 CPU @ 3.40GHz;8;16048;15331;228936;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-600D;CP8;Intel® Core™ i7-3770 CPU @ 3.40GHz;8;7996;15331;114473;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-600E;CP9;Intel® Core™ i7-8700 CPU @ 3.20Ghz;12;16031;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-601E;CP9;Intel® Core™ i7-8700 CPU @ 3.20Ghz;12;16031;15331;228936/447000;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-600F;CP9;Intel® Xeon® E-2386G CPU @ 3.50GHz;12;15995;28738;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-601F;CP9;Intel® Xeon® E-2386G CPU @ 3.50GHz;12;15995;28738;228936;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-800D;CP8;Intel® Core™ i5-4690S CPU @ 3.20GHz;4;7997;15331;228936;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-900D;CP8;Intel® Xeon® CPU E3-1225 v3 @ 3.20GHz;4;16064;1925;244198;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-900G;CP9;AMD Ryzen Embedded 5950E 16-Core Processor;32;32128;28738;;164/163/153 Gbps;55 Gbps;42 Gbps;31 Gbps;30 Gbps;3.78 / 2.5 μs;16 Million;"720;000";"50;000";"2;000";"50;000";10 Gbps;"10;000";16.7 Gbps;74.8 Gbps;2048/1024;196;"5;000";10/50;"4x 25 GE SFP28; 4x 10 GE SFP+; 1x 2.5GE RJ45; 8x GE SFP; 17x GE RJ45";960 GB (901G);Dual PS;1 RU;DC
+FortiGate-901G;CP9;AMD Ryzen Embedded 5950E 16-Core Processor;32;32127;28738;457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-1000D;CP8;Intel® Xeon® CPU E3-1275 v3 @ 3.50GHz;8;15979;3840;114473/244198;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-1000F;CP9;Intel® Xeon® E-2388G CPU @ 3.20GHz;16;16009;28738;;198/196/134 Gbps;55 Gbps;19 Gbps;15 Gbps;13 Gbps;3.45 μs;7.5 Million;"650;000";"100;000";"20;000";"100;000";5.3 Gbps;"10;000";10 Gbps;44 Gbps;4096/2048;196;"20;000";10/250;"2x 100 GE QSFP28; 8x 25 GE SFP28; 16x10 GE SFP+; 8x 10GE RJ45; 1x 2.5GE RJ45; 1x GE RJ45";960 GB (1001F);Dual PS;2 RU;—
+FortiGate-1101E;CP9;Intel® Xeon® E-2186G CPU @ 3.80GHz;12;16048;15331;457862/915724;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-1200D;CP8;Intel® Xeon® CPU E5-1620 v2 @ 3.70GHz;8;16064;15331;228936;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-1500D;CP8;Intel® Xeon® CPU E5-1650 0 @ 3.20GHz;12;16064;30653;2x228936;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-1800F;CP9;Intel® Xeon® W-3223 CPU @ 3.50GHz;16;24102;28738;;198/197/140 Gbps;55 Gbps;22 Gbps;17 Gbps;15 Gbps;3.22 μs;12 Million / 40 Million;"750;000 / 2 Million";"100;000";"20;000";"100;000";11 Gbps;"10;000";12 Gbps;34 Gbps;4096/2048;196;"20;000";10/250;"4x 100 GE QSFP28; 12x 25 GE SFP28; 2x10 GE SFP+; 8x GE SFP; 18x GE RJ45";2x 960 GB (1801F);Dual PS;2 RU;DC
+FortiGate-1801F;CP9;Intel® Xeon® W-3223 CPU @ 3.50GHz;16;24101;28738;953869;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-2000E;CP9;Intel® Xeon® CPU E5-1650 v4 @ 3.60GHz;12;32198;15331;457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-2200E;CP9;Intel® Xeon® Gold 6126 CPU @ 2.60GHz;24;48294;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-2201E;CP9;Intel® Xeon® Gold 6126 CPU @ 2.60GHz;24;48294;15331;2x915715;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-2500E;CP9;Intel® Xeon® CPU E5-1650 v3 @ 3.50GHz;12;32199;15331;457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-2600F;CP9;Intel® Xeon® Gold 6208U CPU @ 2.90GHz;32;48292;28738;;198/196/140 Gbps;55 Gbps;31 Gbps;27 Gbps;25 Gbps;3.41 μs;24 Million / 40 Million;1 Million / 2 Million;"100;000";"20;000";"100;000";16 Gbps;"30;000";20 Gbps;64 Gbps;4096/2048;196;"20;000";10/500;"4x 100GE QSFP28/40GE QSFP+; 16x 25GE SFP28; 16x 10GE RJ45; 2x 10GE SFP+; 2x GE RJ45";2x 960 GB (2601F);Dual PS;2 RU;DC
+FortiGate-2601F;CP9;Intel® Xeon® Gold 6208U CPU @ 2.90GHz;32;48292;28738;953869;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3000D;CP8;Intel® Xeon® CPU E5-2650 v3 @ 2.30GHz;40;64469;15331;457862;;;;;;;;;;;;;;;;;;;;;;;;
+Fortigate-3000F;CP9;AMD EPYC 7502P 32-Core;64;129073;28738;;397/389/221 Gbps;105 Gbps;36 Gbps;34 Gbps;33 Gbps;3.92 μs;70 Million / 230 Million;"870;000 / 3 Million";"200;000";"40;000";"200;000";11 Gbps;"30;000";29 Gbps;115 Gbps;4096/2048;300;"20;000";10/500;"6x 100GE QSFP28/40GE QSFP+; 16x 25GE SFP28; 18x 10GE RJ45; 2x GE RJ45";2x 960 GB (3001F);Dual PS;2 RU;DC
+FortiGate-3100D;CP8;Intel® Xeon® E5-2660 v3 @ 2.60GHz;unknown;64469;15331;457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3200D;CP8;Intel® Xeon® CPU E5-2670 v3 @ 2.30GHz;48;64468;15331;457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3200F;CP9;Intel® Xeon® Gold 6348 CPU @ 2.60GHz;56;129076;28738;;387/385/178.5 Gbps;105 Gbps;63 Gbps;47 Gbps;45 Gbps;3.42 μs;70 Million;"800;000";"200;000";"40;000";"200;000";11 Gbps;"30;000";29 Gbps;109 Gbps;4096/2048;300;"20;000";10/500;"4x 400GE QSFP-DD; 12x 50GE SFP56; 4x 25GE SFP28; 2x 10GE RJ45";2x 960 GB (3201F);Dual PS;2 RU;—
+FortiGate-3300E;CP9;Intel® Xeon® Gold 5118 CPU @ 2.30GHz;unknown;96674;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3400E;CP9;Intel® Xeon® Gold 6130 CPU @ 2.10GHz;64;96674;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3401E;CP9;Intel® Xeon® Gold 6130 CPU @ 2.10GHz;64;96674;15331;2x915724;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3600E;CP9;Intel® Xeon® Gold 6152 CPU @ 2.10GHz;88;96668;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3601E;CP9;Intel® Xeon® Gold 6152 CPU @ 2.10GHz;88;96668;15331;2x915724;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3700D;CP8;Intel® Xeon® E5-2680 V2 CPU @ 2.80GHz;unknown;64469;15331;2x457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3700F;CP9;Intel® Xeon® Gold 6348 CPU @ 2.60GHz;112;258345;28738;;589/589/420 Gbps;160 Gbps;86 Gbps;80 Gbps;75 Gbps;3.56 μs / 1.45 μs;140 Million;"930;000";"200;000";"40;000";"200;000";16 Gbps;"30;000";55 Gbps;190 Gbps;4096/2048;300;"20;000";10/500;"4x 400GE QSFP-DD; 4x ULL 25GE SFP28; 20x 50GE SFP56; 2x 10GE RJ45";2x 1.92TB (3701F);Dual PS;2 RU;—
+FortiGate-3800D;CP8;Intel® Xeon® E5-2680 V2 CPU @ 2.80GHz;unknown;64469;15331;2x457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3810D;CP8;Intel® Xeon® E5-2680 V2 CPU @ 2.80GHz;unknown;64469;15331;2x457862;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3960E;CP9;Intel® Xeon® E5-2650 V4 CPU @ 2.20GHz;unknown;256000;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-3980E;CP9;Intel® Xeon® E5-2650 V4 CPU @ 2.20GHz;unknown;256000;15331;;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-4200F;CP9;Intel® Xeon® Gold 6248 CPU @ 2.50GHz;80;387725;28738;;800/788/400 Gbps;210 Gbps;52 Gbps;47 Gbps;45 Gbps;3.02 μs;210 Million / 450 Million;1 Million / 7 Million;"400;000";"40;000";"200;000";16 Gbps;"30;000";50 Gbps;135 Gbps;8192/4096;300;"20;000";10/500;"8x 100GE QSFP28/40GE QSFP+; 18x 25GE SFP28; 2x GE RJ45";2x 1.92TB (4201F);Dual PS;3 RU;DC
+FortiGate-4401F;CP9;Intel® Xeon® Gold 6248 CPU @ 2.50GHz;160;387712;28738;1907729;;;;;;;;;;;;;;;;;;;;;;;;
+FortiGate-4800F;CP9;Intel® Xeon® Gold 6348 CPU @ 2.60GHz;112;516902;28738;;3.1/3.1/0.93 Tbps;800 Gbps;87 Gbps;77 Gbps;75 Gbps;3.6 μs;280 Million / 1.8 Billion;"915;000 / 25 Million";"400;000";"40;000";"200;000";18 Gbps;"30;000";63 Gbps;180 Gbps;8192/4096;300;"20;000";10/500;"8x 400GE; 12x 200GE QSFP56; 12x 50GE SFP56; 2x 10GE RJ45";2x 1.92TB (4801F);4 PS;4 RU;"DC; NEBS"

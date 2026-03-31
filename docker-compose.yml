@@ -1,0 +1,32 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: matrix_db
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'fortigate_matrix'
+      MYSQL_ROOT_PASSWORD: 'B4zAyPrThOrIlktpnirj'
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    networks:
+      - proxy-network
+
+  app:
+    build: .
+    container_name: matrix_app
+    restart: always
+    ports:
+      - "8081:8501"
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+      - DB_NAME=fortigate_matrix
+      - DB_USER=root
+      - DB_PASS=B4zAyPrThOrIlktpnirj
+    networks:
+      - proxy-network
+
+networks:
+  proxy-network:
+    external: true

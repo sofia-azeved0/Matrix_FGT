@@ -1,0 +1,33 @@
+/* Estilo Dark/Tech */
+.stApp {
+    background-color: #0b0e14;
+    color: #e0e0e0;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #11151c;
+    border-right: 1px solid #1f2937;
+}
+
+/* Botões Neon */
+div.stButton > button {
+    background-color: #11151c;
+    color: #00d4ff;
+    border: 1px solid #00d4ff;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 100%;
+}
+
+div.stButton > button:hover {
+    border-color: #008cb2;
+    color: #008cb2;
+    box-shadow: 0px 0px 12px #00d4ff;
+}
+
+/* Inputs */
+input {
+    background-color: #1a1f26 !important;
+    color: #ffffff !important;
+}
